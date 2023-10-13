@@ -4,7 +4,7 @@
       "id": 1,
       "title": "Exploring JavaScript Functions",
       "summary": "Learn about essential JavaScript functions with practical examples and use cases.",
-      "content": "1. Function: addNumbers\nDescription: Adds two numbers and returns the result.\nExample:\nNamed Function\n```javascript\nfunction addNumbers(a, b) {\n  return a + b;\n}\n```\nArrow Function\n```javascript\nconst addNumbersArrow = (a, b) => a + b;\n```\n2. Function: multiplyNumbers\nDescription: Multiplies two numbers and returns the result.\nExample:\nNamed Function\n```javascript\nfunction multiplyNumbers(a, b) {\n  return a * b;\n}\n```\nArrow Function\n```javascript\nconst multiplyNumbersArrow = (a, b) => a * b;\n```\n3. Function: findMax\nDescription: Finds the maximum number from an array of numbers and returns it.\nExample:\n```javascript\nfunction findMax(numbers) {\n  return Math.max(...numbers);\n}\n```\nArrow Function\n```javascript\nconst findMaxArrow = (numbers) => Math.max(...numbers);\n```\n4. Function: isPalindrome\nDescription: Checks if a given string is a palindrome and returns a boolean value.\nExample:\n```javascript\nfunction isPalindrome(str) {\n  const reversed = str.split('').reverse().join('');\n  return str === reversed;\n}\n```\nArrow Function\n```javascript\nconst isPalindromeArrow = (str) => {\n  const reversed = str.split('').reverse().join('');\n  return str === reversed;\n};\n```",
+      "content": "1. Function: addNumbers\nDescription: Adds two numbers and returns the result.\nExample:\nNamed Function\n<pre><code>function addNumbers(a, b) {\n  return a + b;\n}</code></pre>\nArrow Function\n<pre><code>const addNumbersArrow = (a, b) => a + b;</code></pre>\n2. Function: multiplyNumbers\nDescription: Multiplies two numbers and returns the result.\nExample:\nNamed Function\n<pre><code>function multiplyNumbers(a, b) {\n  return a * b;\n}</code></pre>\nArrow Function\n<pre><code>const multiplyNumbersArrow = (a, b) => a * b;</code></pre>\n3. Function: findMax\nDescription: Finds the maximum number from an array of numbers and returns it.\nExample:\n<pre><code>function findMax(numbers) {\n  return Math.max(...numbers);\n}</code></pre>\nArrow Function\n<pre><code>const findMaxArrow = (numbers) => Math.max(...numbers);</code></pre>\n4. Function: isPalindrome\nDescription: Checks if a given string is a palindrome and returns a boolean value.\nExample:\n<pre><code>function isPalindrome(str) {\n  const reversed = str.split('').reverse().join('');\n  return str === reversed;\n}</code></pre>\nArrow Function\n<pre><code>const isPalindromeArrow = (str) => {\n  const reversed = str.split('').reverse().join('');\n  return str === reversed;\n};</code></pre>",
       "likes": 17,
       "comments": [
         {
@@ -40,7 +40,7 @@
       "id": 2,
       "title": "Mastering JavaScript Functions",
       "summary": "Dive deep into advanced JavaScript functions with real-world examples and practical insights.",
-      "content": "1. Function: reverseString\nDescription: Reverses a given string and returns the result.\nExample:\nNamed Function\n```javascript\nfunction reverseString(str) {\n  return str.split('').reverse().join('');\n}\n```\nArrow Function\n```javascript\nconst reverseStringArrow = (str) => str.split('').reverse().join('');\n```\n2. Function: calculateFactorial\nDescription: Calculates the factorial of a given number.\nExample:\nNamed Function\n```javascript\nfunction calculateFactorial(n) {\n  if (n === 0 || n === 1) {\n    return 1;\n  }\n  return n * calculateFactorial(n - 1);\n}\n```\nArrow Function\n```javascript\nconst calculateFactorialArrow = (n) => (n === 0 || n === 1) ? 1 : n * calculateFactorialArrow(n - 1);\n```\n",
+      "content": "1. Function: reverseString\nDescription: Reverses a given string and returns the result.\nExample:\nNamed Function\n<pre><code>function reverseString(str) {\n  return str.split('').reverse().join('');\n}</code></pre>\nArrow Function\n<pre><code>const reverseStringArrow = (str) => str.split('').reverse().join('');</code></pre>\n2. Function: calculateFactorial\nDescription: Calculates the factorial of a given number.\nExample:\nNamed Function\n<pre><code>function calculateFactorial(n) {\n  if (n === 0 || n === 1) {\n    return 1;\n  }\n  return n * calculateFactorial(n - 1);\n}</code></pre>\nArrow Function\n<pre><code>const calculateFactorialArrow = (n) => (n === 0 || n === 1) ? 1 : n * calculateFactorialArrow(n - 1);</code></pre>",
       "likes": 5,
       "comments": [
         {
@@ -69,3 +69,4 @@
     }
   ]
 }
+
